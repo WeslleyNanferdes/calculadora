@@ -5,8 +5,11 @@ class Design extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
-    return const Scaffold(
-      
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: const Icon(Icons.calculate, size: 60),
+      ),
     );
   }
 }
