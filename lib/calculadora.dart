@@ -5,10 +5,11 @@ class Calculadora extends StatefulWidget{
   const Calculadora({super.key});
 
   @override
-  State<Calculadora> createState() => Calculador();
+  State<Calculadora> createState() => _Calculador();
 }
 
-class Calculador extends State<Calculadora>{
+class _Calculador extends State<Calculadora>{
+  
   @override
   Widget build(BuildContext context){
     return const MaterialApp(
